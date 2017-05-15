@@ -1,0 +1,57 @@
+
+
+/*Container*/
+#container {
+  width: 1178px;
+  background-color: lightblue;
+  }
+/*Header*/
+#header {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+}
+
+#logo {
+  font: arial;
+  font-size: 24px;
+}
+
+/*Section 1 content*/
+
+.section {
+  display: flex;
+}
+
+.sleft {
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 40px;
+  margin-bottom: 32px;
+  width: 60%;
+}
+
+.bannerimg {
+  width: 100%;
+}
+.srighttext {
+  margin-top: 200px;
+  width: 300px;
+
+}
+.srightbutton {
+  width: 300px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid darkgrey;
+  background-color: darkgrey;
+}
+/*Section 2 content*/
+.sleft2 {
+  margin-top: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  width: 60%;
+}
