@@ -63,6 +63,10 @@
   width: 60%;
 }
 
+.signaturetext {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
 .sright2 {
   width: 423px;
   margin-top: 32px;
@@ -106,4 +110,44 @@
   color: blue;
   margin:0;
   padding-top: none;
+}
+
+/*Section 3 content*/
+.section3header {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section3 {
+  background-color: lightgray;
+  font-family: monospace;
+  border: 1px solid lightgray;
+
+}
+
+.classes-containers {
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+  margin: 0 auto;
+}
+
+.coursetext {
+  background-color: white;
+  margin-top: -18px;
+  padding: 16px;
+}
+
+.classes {
+  flex-basis: 30%;
+}
+
+.classes img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
