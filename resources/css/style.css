@@ -21,6 +21,13 @@
 
 .section {
   display: flex;
+  background-color: lightgray;
+  font-family: monospace;
+  border: 1px solid lightgray;
+}
+
+.section_col2{
+  background-color: white;
 }
 
 .sleft {
@@ -54,4 +61,49 @@
   margin-right: 24px;
   margin-bottom: 32px;
   width: 60%;
+}
+
+.sright2 {
+  width: 423px;
+  margin-top: 32px;
+}
+
+.srightbox {
+  display: flex;
+}
+
+.srightbox_img{
+  flex-basis: 35%;
+  /*margin-top: 32px;*/
+  margin-left:16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.first-imageright {
+  width: 100%;
+}
+
+.srightbox_text {
+  margin-top: 28px;
+}
+
+.srightbox-text1 {
+  font-weight: bold;
+}
+
+.smallertextlink {
+  color: blue;
+  padding-top: 1rem;
+}
+
+.smallertext3 {
+  margin:0;
+  padding-bottom: 8px;
+}
+
+.smallertextlink3 {
+  color: blue;
+  margin:0;
+  padding-top: none;
 }
